@@ -1,14 +1,13 @@
 package shop.mtcoding.aopstudy.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@Getter @Setter
-public class JoinInDto {
+@Data
+public class JoinDTO {
     @NotNull
     private String username;
     @NotEmpty

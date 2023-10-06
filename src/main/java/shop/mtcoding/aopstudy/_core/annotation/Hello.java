@@ -1,4 +1,4 @@
-package shop.mtcoding.aopstudy.config.annotation;
+package shop.mtcoding.aopstudy._core.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
